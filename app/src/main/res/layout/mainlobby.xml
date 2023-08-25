@@ -12,12 +12,11 @@
         android:layout_marginTop="4dp"
         android:text="Enrolados"
         android:textColor="#000"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 
     <LinearLayout
@@ -29,6 +28,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="244dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:text="RUT Cliente"
+                    android:textColor="000"
+                    android:textSize="18sp"/>
+            </TableRow>
+        </TableLayout>
 
     </LinearLayout>
 
